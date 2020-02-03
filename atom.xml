@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>黎璃的个人博客</title>
+  
+  <subtitle>不困于物，不乱于心</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://xiaotong-sun.gitee.io/"/>
+  <updated>2020-02-03T05:33:51.230Z</updated>
+  <id>https://xiaotong-sun.gitee.io/</id>
+  
+  <author>
+    <name>黎璃</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>神奇的指针</title>
+    <link href="https://xiaotong-sun.gitee.io/1853691604.html"/>
+    <id>https://xiaotong-sun.gitee.io/1853691604.html</id>
+    <published>2020-02-01T11:30:50.000Z</published>
+    <updated>2020-02-03T05:33:51.230Z</updated>
+    
+    <content type="html"><![CDATA[<img src="http://q4cojzpwh.bkt.clouddn.com/fengjing3.jpg" width = "848.46" height = "300" ><a id="more"></a><audio src="http://q4cojzpwh.bkt.clouddn.com/zongcilang.mp3" style="height :20; width: 200; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta" autoplay>Your browser does not support the audio tag.</audio>---<table><thead><tr><th align="left">内容</th><th align="left">备注</th></tr></thead><tbody><tr><td align="left">何谓指针</td><td align="left">指针是一种特殊的数据类型</td></tr><tr><td align="left">何谓指针变量</td><td align="left">1. 指针变量是具有指针类型的变量，是专门用于储存变量地址的变量<br>2. 指针变量的特殊性表现在：它的内容只能是地址，而不能是数据；必须<strong>初始化</strong><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>才能使用，否则指向不确定的储存单元；只能指向同一基类型的变量；只能参与加（减）整数，自增，自减，关系，赋值等运算</td></tr><tr><td align="left">指针变量的定义和初始化</td><td align="left">使用指针变量之前必须初始化，<strong>定义指针的同时为其初始化是一种良好的编程习惯</strong></td></tr><tr><td align="left">取地址运算符＆</td><td align="left">用于获取变量的内存地址</td></tr><tr><td align="left">间接寻址运算符 *</td><td align="left">用于访问变量的内容</td></tr><tr><td align="left">指针做函参数</td><td align="left">指针做函数参数是<strong>模拟按引用调用</strong>，需要将<strong>函数外的某个变量的地址</strong>作为实参传递给函数相应的指针形参</td></tr><tr><td align="left">函数指针<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></td><td align="left">函数指针就是<strong>指向函数的指针</strong>，指向函数的指针变量中储存的是一个函数在内存中的入口地址</td></tr><tr><td align="left">使用指针时应恪守的原则</td><td align="left">1.永远清楚每个指针指向什么位置<br>2.永远清楚每个指针指向的位置的内容是什么<br>3.永远不要使用未初始化的指针</td></tr></tbody></table><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">初始化的两种方法:  <br>  1. <strong>int * pa = &amp;a;或int  * pa = NULL;</strong><br> 2. <strong>int *pa;  pa = &amp;a;</strong></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">函数指针声明：<br> <strong>int ( * compare)(int a, int b)</strong>  注意区别<code>int *compare(int a, int b)</code> <br> 1. 前者：compare是一个指针变量，该指针指向的是函数 <br> 2. 后者：它声明的不是一个函数指针，而是一个<strong>两个整型形参并返回整形指针的函数</strong></span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img src=&quot;http://q4cojzpwh.bkt.clouddn.com/fengjing3.jpg&quot; width = &quot;848.46&quot; height = &quot;300&quot; &gt;
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="https://xiaotong-sun.gitee.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="Ｃ语言" scheme="https://xiaotong-sun.gitee.io/categories/%E5%AD%A6%E4%B9%A0/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="c语言" scheme="https://xiaotong-sun.gitee.io/tags/c%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>飞</title>
+    <link href="https://xiaotong-sun.gitee.io/1792223036.html"/>
+    <id>https://xiaotong-sun.gitee.io/1792223036.html</id>
+    <published>2020-02-01T04:03:42.000Z</published>
+    <updated>2020-02-03T05:33:51.229Z</updated>
+    
+    <content type="html"><![CDATA[<img src="http://q4cojzpwh.bkt.clouddn.com/fengjing4.jpg" width = "848.46" height = "300" ><a id="more"></a><audio src="http://q4cojzpwh.bkt.clouddn.com/Fly.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta" autoplay>Your browser does not support the audio tag.</audio><blockquote class="blockquote-center"><p>风浪没平息 我宣告奔跑的意义</p><p>这不是叛逆 我只是淋了一场雨</p><p>没怀疑 燃烧的梦都飞哪去</p><p>问自己 这次我不会放弃</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img src=&quot;http://q4cojzpwh.bkt.clouddn.com/fengjing4.jpg&quot; width = &quot;848.46&quot; height = &quot;300&quot; &gt;
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://xiaotong-sun.gitee.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="摘抄" scheme="https://xiaotong-sun.gitee.io/categories/%E7%94%9F%E6%B4%BB/%E6%91%98%E6%8A%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Git 学习笔记</title>
+    <link href="https://xiaotong-sun.gitee.io/1010621300.html"/>
+    <id>https://xiaotong-sun.gitee.io/1010621300.html</id>
+    <published>2020-01-21T12:15:07.000Z</published>
+    <updated>2020-02-03T05:33:51.230Z</updated>
+    
+    <content type="html"><![CDATA[<img src="http://q4cojzpwh.bkt.clouddn.com/fengjing2.jpg" width = "848.46" height = "300" ><a id="more"></a><p><strong>以下内容只是一些基本的git命令和操作，具体内容和具体操作参考：<a href="https://www.liaoxuefeng.com/wiki/896043488029600/896202815778784" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/896043488029600/896202815778784</a></strong></p><hr><h3 id="一：git简介"><a href="#一：git简介" class="headerlink" title="一：git简介"></a>一：git简介</h3><ul><li>git是目前世界上最先进的<strong>分布式版本控制系统</strong></li><li>版本控制系统：可以储存一个文件在不同时间的版本，记录<strong>每次文件的改动</strong>，可以根据需要，随时<strong>切换到之前的版本</strong>。</li><li>分布式VS集中式：</li></ul><table><thead><tr><th align="center"></th><th align="center">中央服务器</th><th align="center">是否需要联网</th><th align="center">安全性</th></tr></thead><tbody><tr><td align="center">集中式</td><td align="center">需要</td><td align="center">需要</td><td align="center">低</td></tr><tr><td align="center">分布式</td><td align="center">不需要</td><td align="center">不需要</td><td align="center">高</td></tr></tbody></table><h3 id="二：安装git"><a href="#二：安装git" class="headerlink" title="二：安装git"></a>二：安装git</h3><ol><li>在Linux上安装<br>终端输入：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt install git</span><br></pre></td></tr></table></figure></li><li>在Windows上安装git<br>在Windows上使用Git，可以从Git官网直接下载安装程序，然后按默认选项安装即可。<br>安装完成后，在开始菜单里找到“Git”-&gt;“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！</li></ol><ul><li>安装完成后，需要在终端进行设置<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;Your name&quot;</span><br><span class="line">$git config --global user.email &quot;email@example.com&quot;</span><br></pre></td></tr></table></figure><code>--global</code>是一个全局变量参数</li></ul><h3 id="三：创建版本库"><a href="#三：创建版本库" class="headerlink" title="三：创建版本库"></a>三：创建版本库</h3><ol><li><p>首先，选择一个合适的地方，创建一个空目录：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir learngit </span><br><span class="line">$ cd learngit</span><br><span class="line">$ pwd</span><br><span class="line"> &#x2F;Users&#x2F;michael&#x2F;learngit</span><br></pre></td></tr></table></figure><p><code>pwd</code>命令用于显示当前目录。在我的电脑上，这个仓库位于<code>/Users/michael/learngit</code></p></li><li><p>通过<code>git init</code>命令把这个目录变成Git可以管理的仓库：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br><span class="line">Initialized empty Git repository in &#x2F;Users&#x2F;michael&#x2F;learngit&#x2F;.git&#x2F;</span><br></pre></td></tr></table></figure><p>  创建完成后会在当前目录下出现一个<code>.git</code>文件，若没有看见是因为这个目录默认为隐藏文件，用<code>ls -ah</code>命令就可以看见</p></li><li><p>把文件添加到版本库:<br>　用命令 <code>vim a.txt</code> 在git仓库中编写一个文件<br>　把一个文件放到Git仓库只需要两步</p><p>第一步，用命令<code>git add</code>告诉Git，把文件添加到仓库:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add a.txt</span><br></pre></td></tr></table></figure><p>第二步，用命令git commit告诉Git，把文件提交到仓库：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git commit -m &quot;wrote a readme file&quot;</span><br></pre></td></tr></table></figure><p>简单解释一下<code>git commit命令</code>，<code>-m</code>后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。</p></li></ol><h3 id="四：版本退回"><a href="#四：版本退回" class="headerlink" title="四：版本退回"></a>四：版本退回</h3><ol><li>　<code>git status</code>–&gt;让我们掌握仓库当前的状态</li><li>　<code>git diff &lt; file &gt;</code>–&gt;查看文件当前的改动</li><li>　<code>git reset --hard HEAD^</code>–&gt;返回上次提交的版本</li><li>　<code>git reset --hard &lt; commit id &gt;</code>–&gt;返回你想返回的文件版本</li><li>　<code>git log --pretty=oneline</code>–&gt;查看commit id</li><li>　<code>git reflog</code>–&gt;用来记录每一次的命令</li></ol><h3 id="五：管理修改"><a href="#五：管理修改" class="headerlink" title="五：管理修改"></a>五：管理修改</h3><p> 每次修改如果不用<code>git add</code>到暂存区,就不会加入到commit中<code>git diff HEAD -- &lt;file&gt;</code>可以查看工作区和版本库里最新版本的区别。</p><h3 id="六：撤销修改"><a href="#六：撤销修改" class="headerlink" title="六：撤销修改"></a>六：撤销修改</h3><p><code>git checkout -- file</code> 可以把工作区的修改全部撤销掉:<br><strong>两种情况:</strong><br>一种是readme.txt自修改后还没有被放到暂存区,现在,撤销修改就回到和版本库一模一样的状态;<br>一种是readme.txt已经添加到暂存区后,又作了修改,现在,撤销修改就回到添加到暂存区后的状态。<br><code>git reset HEAD file</code>可以把暂存区的修改撤销掉,重新放到工作区中。<code>HEAD</code>表示最新版本</p><h3 id="七：文件删除"><a href="#七：文件删除" class="headerlink" title="七：文件删除"></a>七：文件删除</h3><p><code>rm file</code>将工作区文件删掉。 #仅删除工作区<br><code>git rm file</code>从版本库将文件删掉,并且需要<code>git commit</code> 　 #删除工作区,并删除版本库<br>若是误删,用<code>git checkout -- file</code>将文件恢复到最新版。仅对rm有效</p><h3 id="八：添加远程库"><a href="#八：添加远程库" class="headerlink" title="八：添加远程库"></a>八：添加远程库</h3><p>第1步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有<code>id_rsa</code>和<code>id_rsa.pub</code>这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</span><br></pre></td></tr></table></figure><p>你需要把邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可，由于这个Key也不是用于军事目的，所以也无需设置密码。<br>如果一切顺利的话，可以在用户主目录里找到<code>.ssh</code>目录，里面有<code>id_rsa</code>和<code>id_rsa.pub</code>两个文件，这两个就是SSH Key的秘钥对，<code>id_rsa</code>是私钥，不能泄露出去，<code>id_rsa.pub</code>是公钥，可以放心地告诉任何人。</p><p>第2步：登陆GitHub，打开“Account settings”，“SSH Keys”页面：<br>然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴<code>id_rsa.pub</code>文件的内容：<br><img src="http://q4cojzpwh.bkt.clouddn.com/0.png" alt=""><br>点＂Add Key”，你就应该看到已经添加的key:<br><img src="http://q4cojzpwh.bkt.clouddn.com/hh.png" alt=""></p><p><strong>使本地仓库和远程库关联起来:</strong><br><code>git remote add origin git@github.com:xiaotong-sun/xxxx.git</code><br>Origin 是远程库的名字,可以改成别的。 改名命令:<code>git remote rename origin xx</code></p><p><strong>第一次</strong>把本地库的所有内容推送到远程库上时的操作:<br><code>git push -u origin master</code><br>此后每次提交使用:<code>git push origin master</code></p><h3 id="九：从远程库克隆"><a href="#九：从远程库克隆" class="headerlink" title="九：从远程库克隆"></a>九：从远程库克隆</h3><p>已有远程库,使用命令克隆一个本地库:<br><code>git clone git@github.com:xiaotong-sun/xxxxx.git</code></p><h3 id="十：分支管理"><a href="#十：分支管理" class="headerlink" title="十：分支管理"></a>十：分支管理</h3><ol><li>创建分支:<code>git checkout -b dev</code> (dev为分支的名字,你可以随便起)<br><code>git checkout</code> + <code>-b</code>  表示创建并切换—&gt;相当于—&gt;<code>git branch dev</code>&amp;&amp; <code>git checkout dev</code>两条命令<br><code>git switch -c dev</code>—&gt;也可以用来创建并切换新的分支<br><code>git branch</code>—&gt;可以用来查看当前分支</li><li>删除分支:<br><code>git branch -d dev</code></li><li>合并分支:合并某分支到当前分支:<br><code>git merge &lt; file &gt;</code></li><li>解决冲突:<br>当主分支和次分支都修改了部分内容,此时将无法快速合并这时可以直接查看,并将冲突修改后方可合并<br><code>git log --graph --pretty=oneline --abbrev-commit</code>—&gt;将提交版本整理成图形</li><li>分支管理策略:<br><code>git merge file</code>是一种fast forward合并,这种合并看不出来曾经做过合并<br><code>git merge --no-ff -m “”</code> ➕<code>dev</code> 是一种普通的合并,能看出合并历史。</li><li>bug分支:<br>用<code>git stash</code>将手头进行的工作现场储存下来,之后就可以放心的去修bug了<br>修bug时,要首先跳到bug所在分支,并在那个分支上创建一个分支用来修bug,修完之后将其合并。<br>返回原来干活的分支,<code>git stash list</code>查看存放的工作现场。<br><code>git stash apply</code>恢复,但stash内容不删除。<br>用<code>git stash drop</code>来删除<br>而<code>git stash pop</code>在恢复的同时也将<strong>stash内容删除了</strong><br>若存放了多个现场,用<code>git stash apply stash@{0}</code>来指定恢复<br>若主分支和次分支同时存在相同的bug,那么可用<code>git cherry-pick (序列号)</code>来复制这个bug的修改</li><li>feature 分支<br>开发一个新的feature,最好新建一个分支;如果要丢弃一个没有被合并过的分支可以通过<code>git branch -D file</code> 强行删除</li><li>多人协作<br><code>git remote</code>查看远程库信息,<code>git remote -v</code>来显示更详细的信息;<br>推送分支<code>git push origin master</code>推送主分支<br><code>git push origin dev</code>推其他分支<br><code>git clone</code> 只能克隆master分支,要想把其他分支也整到本地则需<br><code>git checkout -b dev origin/dev</code><br>git pull用来抓取,若git pull 失败请仔细看git给的提示<br>用<code>git branch --set-upstream (branch-name) origin/(branch name)</code>建立关联</li><li>rebase<br><code>git rebase branch-name</code>操作可以把本地未push的分支提交历史整理成直线<br>rebase的目的是是我们在 查看历史提交的变化时更容易</li></ol><h3 id="十一：标签管理"><a href="#十一：标签管理" class="headerlink" title="十一：标签管理"></a>十一：标签管理</h3><ol><li>打标签<br><code>git tag &lt;name&gt;</code>就可以打一个标签<br><code>git tag name commit-id</code>–&gt;对特定的提交打标<br><code>git tag</code>查看标签<br><code>git show name</code>查看标签信息<br><code>git tag -a name -m “” commit-id</code>创建带有说明的标签</li><li>删除标签<br><code>git tag -d name</code> 这能删除本地标签<br><code>git push origin :refs/tags/tag-name</code></li><li>推送标签<br><code>git push origin &lt;tag-name&gt;</code><br>一次性推送所有标签:<code>git push origin --tags</code></li></ol><hr><p><audio src="http://q4cojzpwh.bkt.clouddn.com/Circadian Eyes - What Remains of Our Chalk Road.mp3" style="height :20; width: 200; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta" autoplay>Your browser does not support the audio tag.</audio></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img src=&quot;http://q4cojzpwh.bkt.clouddn.com/fengjing2.jpg&quot; width = &quot;848.46&quot; height = &quot;300&quot; &gt;
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="https://xiaotong-sun.gitee.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="基本操作" scheme="https://xiaotong-sun.gitee.io/categories/%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    
+    
+      <category term="git" scheme="https://xiaotong-sun.gitee.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Hexo+Github搭建个人网站（For Ubuntu19.10）</title>
+    <link href="https://xiaotong-sun.gitee.io/2039746793.html"/>
+    <id>https://xiaotong-sun.gitee.io/2039746793.html</id>
+    <published>2020-01-18T04:17:02.000Z</published>
+    <updated>2020-02-03T05:33:51.230Z</updated>
+    
+    <content type="html"><![CDATA[<img src="http://q4cojzpwh.bkt.clouddn.com/fengjing.jpg" width = "848.46" height = "300" ><a id="more"></a><p><strong>工具：node.js, npm, Hexo, Github<br>前提： git工具， github账号， 基本的git操作</strong></p><hr><h4 id="一：什么是Hexo"><a href="#一：什么是Hexo" class="headerlink" title="一：什么是Hexo"></a>一：什么是Hexo</h4><p><strong>Hexo</strong>是一个快速、简洁且高效的博客框架。 <strong>Hexo</strong>使用Markdown解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><ul><li><strong>nodejs官方网站：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></strong></li><li><strong><em>Hexo的安装和使用，必须有node.js环境</em></strong></li></ul><h4 id="二：准备工作"><a href="#二：准备工作" class="headerlink" title="二：准备工作"></a>二：准备工作</h4><ol><li><strong>什么是node.js？</strong><br>node.js是能够在服务器端运行JavaScript的开放源代码、跨平台JavaScript运行环境</li><li><strong>安装nodejs和npm</strong><br>对于ubuntu这样的Linux系统来说，安装nodejs和npm比较简单，可以通过终端命令完成<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$sudo apt install nodejs</span><br><span class="line">$sudo apt install npm</span><br></pre></td></tr></table></figure>通过以下命令检查安装的nodejs和npm版本<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$node -v</span><br><span class="line">$npm -v</span><br></pre></td></tr></table></figure>nodejs官网已推送至12.14.1版本，npm为6.13.4版本，若所安装的版本过低并且像笔者一样不会通过源码包安装的童鞋可以参考下面网站所示方法：<a href="http://github.com/nodesource/distributions/blob/master/README.md" target="_blank" rel="noopener">http://github.com/nodesource/distributions/blob/master/README.md</a></li></ol><h4 id="三：安装Hexo框架"><a href="#三：安装Hexo框架" class="headerlink" title="三：安装Hexo框架"></a>三：安装Hexo框架</h4><ul><li><p>打开终端，依次输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> $npm install hexo-cli -g                  #安装hexo-cli命令</span><br><span class="line">$hexo init &lt;file&gt;                                 #初始化博客文件</span><br><span class="line">$cd &lt;file&gt;                                              #跳转到博客文件夹</span><br><span class="line">$npm install                                       #还原各种包的关联</span><br><span class="line">$hexo server                                      #进行预览</span><br></pre></td></tr></table></figure><p>参考网址：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p><p>以上步骤完成后，博客网址完成基本搭建。</p></li></ul><h4 id="四：关联github"><a href="#四：关联github" class="headerlink" title="四：关联github"></a>四：关联github</h4><ol><li><p><strong>在github上新建一个仓库。</strong></p><p>仓库命名要严格按照以下格式：</p></li></ol><pre><code>&lt;github用户名&gt;.github.io</code></pre><p><img src="http://q4cojzpwh.bkt.clouddn.com/1.png" alt=""></p><ul><li><p><strong>用README初始化也是必须的。</strong></p></li><li><p><strong><em>由于我已经创建好库，所以会显示重复命名</em></strong></p></li></ul><p><strong>2.获得ssh密匙</strong><br>  在本地通过终端输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ssh-keygen</span><br></pre></td></tr></table></figure><p>一路enter下去，就会在当前用户名下生成一个<strong>.ssh文件夹</strong><br>打开.ssh文件夹中的<strong>id_rsa.pub文件并复制所有内容</strong></p><p><strong>3.在github上填入公匙，即所复制的内容</strong></p><p> <img src="http://q4cojzpwh.bkt.clouddn.com/2.png" alt=""></p><p><img src="http://q4cojzpwh.bkt.clouddn.com/3.png" alt=""></p><p><img src="http://q4cojzpwh.bkt.clouddn.com/4.png" alt=""></p><p>4.<strong>判断ssh是否添加成功</strong><br>终端输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>如果出现你的用户名，那么表示ssh添加成功</p><p>5.<strong>配置文件，将博客与github关联</strong><br>打开博客根目录下的_config.yml文件，这是博客的配置文件，可在此修改与博客相关的各种信息</p><ul><li>打开后修改最后一行的配置<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">  deploy:</span><br><span class="line">type: git</span><br><span class="line">repo: git@github.com:xiaotong-sun&#x2F;xiaotong-sun.github.io.git        # 根据自己的仓库地址填写</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure></li></ul><h4 id="五：最后一步"><a href="#五：最后一步" class="headerlink" title="五：最后一步"></a>五：最后一步</h4><p> 终端执行：<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$hexo clean</span><br><span class="line">$hexo g -d</span><br></pre></td></tr></table></figure></p><hr><p><audio src="http://q4cojzpwh.bkt.clouddn.com/Circadian Eyes - What Remains of Our Chalk Road.mp3" style="height :20; width: 200; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta" autoplay>Your browser does not support the audio tag.</audio></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img src=&quot;http://q4cojzpwh.bkt.clouddn.com/fengjing.jpg&quot; width = &quot;848.46&quot; height = &quot;300&quot; &gt;
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="https://xiaotong-sun.gitee.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="基本操作" scheme="https://xiaotong-sun.gitee.io/categories/%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    
+    
+      <category term="hexo" scheme="https://xiaotong-sun.gitee.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
